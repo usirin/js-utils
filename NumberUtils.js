@@ -31,8 +31,8 @@ Number.prototype.exp = function() {
 };
 
 Number.prototype.times = function(callback) {
-  for (var i = 0; i < this; i ++) {
-    callback();
+  for (var i = 0; i < this; i++) {
+    callback.call(this, i);
   }
   return this;
 };
