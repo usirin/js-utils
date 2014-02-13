@@ -1,0 +1,21 @@
+{
+  "name": "js-utils",
+  "version": "0.0.1",
+  "authors": [
+    "usirin <umutsirin1@gmail.com>"
+  ],
+  "description": "Utility modules that adds useful methods to the prototypes of built-in data types.",
+  "main": "js-utils.js",
+  "keywords": [
+    "utility",
+    "js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
