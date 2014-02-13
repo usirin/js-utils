@@ -29,3 +29,10 @@ Number.prototype.abs = function() {
 Number.prototype.exp = function() {
   return Math.exp(this);
 };
+
+Number.prototype.times = function(callback) {
+  for (var i = 0; i < this; i ++) {
+    callback();
+  }
+  return this;
+};
